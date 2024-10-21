@@ -3,7 +3,7 @@
 
 # OFICINA 1: Primeira Página Web
 
-A primeira oficina consiste em um exemplo básico de uma página HTML. A página simula um site fictício de uma cafeteiria chamada "Cantinho do Café" e inclui diversos elementos essenciais para construção de sites em HTML.
+A primeira oficina consiste em um exemplo básico de uma página HTML. A página simula um site fictício de uma cafeteria chamada "Cantinho do Café" e inclui diversos elementos essenciais para construção de sites em HTML.
 
 ## O desafio proposto foi:
 - Preparação do Ambiente: certifique-se de ter um editor de texto e um navegador atualizado instalados em seu computador. 
