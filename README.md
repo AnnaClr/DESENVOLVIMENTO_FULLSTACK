@@ -1,4 +1,4 @@
-# Hello, World! 🌍  
+# Hello World! 🌍  
 **Bem-vindos ao meu repositório de oficinas do curso de Desenvolvimento Fullstack do Capacita Brasil** 👋  
 
 # OFICINA 1: Primeira Página Web
