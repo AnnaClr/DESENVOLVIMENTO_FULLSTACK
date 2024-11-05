@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,86.3,100..900;0,100,100..900;1,86.3,100..900;1,100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+
+/* Reset universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Black", sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem; 
+    text-align: center;
+    font-weight: 500;
+    height: 10.625rem;
+}
+
+nav a {
+    font-size: 1.5625rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2.1875rem;
+    justify-content: space-between;
+    gap: 0.625rem;
+    
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+section {
+    padding: 1.25rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.625rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: 31.25rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}

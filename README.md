@@ -26,3 +26,29 @@ A página HTML contém:
 - Um formulário (`<form>`) para contato, com campos para nome e e-mail.
 - Links para redes sociais fictícias do café.
 - Uma imagem representativa do ambiente do café.
+
+# OFICINA 02: CSS: Um Lugar que Eu Gostaria de Conhecer
+
+Esta segunda oficina consiste na criação de um site em HTML e CSS sobre um lugar que eu gostaria de conhecer. Escolhi Boston, uma cidade rica em história, cultura e belas paisagens, como tema para esse projeto. O site inclui diversas páginas interconectadas, cada uma explorando aspectos diferentes de Boston, e aplica elementos essenciais de HTML e CSS aprendidos até agora.
+
+## O desafio proposto foi:
+
+Construir um Site em HTML e CSS com a temática, "um lugar que eu gostaria de conhecer!"
+- No mínimo 3 páginas diferentes ligadas por Links.
+- O Site tem que ter no mínimo 10 imagens.
+- Menu com o LINK das páginas.
+- Deve ser usada todas as TAGs no HTML e CSS visto em sala de aula, Tags de parágrafos, listas, tabelas, imagens etc.
+- Deve ser feito um vídeo mostrando o atendimento de cada requisito, explicando o funcionamento das TAGS e enviado para o formulário.
+
+## Elementos e Tags Utilizados
+
+O site inclui os seguintes elementos:
+
+- Um cabeçalho (`<header>`) com o título do site e um menu de navegação (`<nav>`) para todas as páginas.
+- Parágrafos (`<p>`) com descrições e informações sobre Boston.
+- Listas ordenadas (`<ol>`) e não ordenadas (`<ul>`) com tópicos relevantes em cada página.
+- Tabelas (`<table>`, `<tr>`, `<th>`, `<td>`) na página de paisagens, organizando informações sobre pontos turísticos.
+- Imagens (`<img>`) para ilustrar paisagens e aspectos culturais da cidade.
+- CSS personalizado para estilizar cabeçalhos, parágrafos, tabelas e o layout geral do site.
+
+Cada página HTML foi criada com uma estrutura semelhante para manter a consistência, com links internos para fácil navegação. O CSS utilizado está em um único arquivo (`style.css`), onde definições de cores, fontes e layout foram aplicadas para harmonizar o design.

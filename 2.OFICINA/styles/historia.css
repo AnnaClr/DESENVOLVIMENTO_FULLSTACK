@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,86.3,100..900;0,100,100..900;1,86.3,100..900;1,100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+
+/* Reset universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Black", sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 500;
+    height: 10.625rem;
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-weight: 800;
+    color: #5c3262;
+    text-shadow: 0.25rem 0.125rem 0 rgba(92, 50, 98, 0.4);
+    
+    position: absolute;
+    top: 40%;
+    left: 3.125rem;
+    transform: translateY(-50%);
+    padding-left: 1.25rem;
+}
+
+h2 {
+    font-size: 2.1875rem;
+    font-weight: 400;
+    color: #5c3262;
+    text-shadow: 0.125rem 0.0625rem 0 rgba(92, 50, 98, 0.4);
+
+    font-family: "Tenor Sans", serif;
+    font-style: normal;
+
+    position: absolute;
+    top: 48%;
+    left: 3.125rem;
+    transform: translateY(-50%);
+    padding-left: 1.25rem;
+    letter-spacing: 0.5rem;
+}
+
+p {
+    width: 37.5rem; 
+    padding-left: 1.25rem;
+    margin-top: 0.9375rem;
+
+    position: absolute;
+    top: 58%;
+    left: 3.125rem;
+    transform: translateY(-50%);
+    
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #5c3262;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav a {
+    font-size: 1.5625rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+
+    padding: 2.1875rem;
+    justify-content: space-between;
+    gap: 0.625rem;
+    
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+section {
+    padding: 1.25rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+    margin-top: 1.25rem;
+    background-color: #fff;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 0.0625rem solid #ddd;
+}
+
+th {
+    background-color: #5c3262;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.main-img {
+    width: 36.25rem;
+    margin-left: 62.5rem;
+}
+
+.linha {
+    border-top: 0.25rem solid #5c3262;
+    width: 40.625rem;
+    margin-top: 1.25rem;
+    
+    position: absolute;
+    top: 50%;
+    left: 4.1875rem;
+    transform: translateY(-50%);
+}

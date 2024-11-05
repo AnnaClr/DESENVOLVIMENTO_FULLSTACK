@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,86.3,100..900;0,100,100..900;1,86.3,100..900;1,100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
+
+/* Reset universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Black", sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1rem; /* 16px */
+    text-align: center;
+    font-weight: 500;
+    height: 10.625rem; /* 170px */
+}
+
+h1 {
+    font-size: 5.625rem; /* 90px */
+    font-weight: 800;
+    color: #5c3262;
+    text-shadow: 0.25rem 0.125rem 0 rgba(92, 50, 98, 0.4); /* 4px 2px */
+    
+    position: absolute;
+    top: 40%;
+    left: 3.125rem; /* 50px */
+    transform: translateY(-50%);
+    padding-left: 1.25rem; /* 20px */
+}
+
+h2 {
+    font-size: 2.1875rem; /* 35px */
+    font-weight: 400;
+    color: #5c3262;
+    text-shadow: 0.125rem 0.0625rem 0 rgba(92, 50, 98, 0.4); /* 2px 1px */
+    
+    font-family: "Tenor Sans", serif;
+    font-style: normal;
+
+    position: absolute;
+    top: 49%;
+    left: 3.125rem; /* 50px */
+    transform: translateY(-50%);
+    padding-left: 1.25rem; /* 20px */
+    letter-spacing: 0.5rem; /* 8px */
+}
+
+p {
+    width: 48.75rem; /* 780px */
+    padding-left: 1.25rem; /* 20px */
+    margin-top: 0.9375rem; /* 15px */
+    
+    position: absolute;
+    top: 68%;
+    left: 3.125rem; /* 50px */
+    transform: translateY(-50%);
+    
+    font-size: 1.25rem; /* 20px */
+    font-weight: 500;
+    color: #5c3262;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav a {
+    font-size: 1.5625rem; /* 25px */
+    font-weight: 900;
+    color: #ffffff;
+    text-decoration: none;
+
+    padding: 2.1875rem; /* 35px */
+    justify-content: space-between;
+    gap: 0.625rem; /* 10px */
+    
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+section {
+    padding: 1.25rem; /* 20px */
+}
+
+.cultura-img {
+    width: 36.25rem; /* 580px */
+    margin-left: 60.625rem; /* 970px */
+}
+
+.linha {
+    border-top: 0.25rem solid #5c3262; /* 4px */
+    width: 47.5rem; /* 760px */
+    margin-top: 1.25rem; /* 20px */
+    
+    position: absolute;
+    top: 51%;
+    left: 4.1875rem; /* 67px */
+    transform: translateY(-50%);
+}
