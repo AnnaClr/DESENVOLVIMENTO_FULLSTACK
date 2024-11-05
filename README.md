@@ -44,10 +44,10 @@ Construir um Site em HTML e CSS com a temática, "um lugar que eu gostaria de co
 
 O site inclui os seguintes elementos:
 
-- Um cabeçalho (`<header>`) com o título do site e um menu de navegação (`<nav>`) para todas as páginas.
+- Um cabeçalho (`<header>`) e um menu de navegação (`<nav>`) para todas as páginas.
 - Parágrafos (`<p>`) com descrições e informações sobre Boston.
-- Tabelas (`<table>`, `<tr>`, `<th>`, `<td>`) na página de paisagens, organizando informações sobre pontos turísticos.
-- Imagens (`<img>`) para ilustrar paisagens e aspectos culturais da cidade.
+- Tabelas (`<table>`, `<tr>`, `<th>`, `<td>`) na página de história, organizando informações sobre fatos históricos.
+- Imagens (`<img>`) para ilustrar paisagens e aspectos da cidade.
 - CSS personalizado para estilizar cabeçalhos, parágrafos, tabelas e o layout geral do site.
 
-Cada página HTML foi criada com uma estrutura semelhante para manter a consistência, com links internos para fácil navegação. O CSS utilizado está em um único arquivo (`style.css`), onde definições de cores, fontes e layout foram aplicadas para harmonizar o design.
+Cada página HTML foi criada com uma estrutura semelhante para manter a consistência, com links internos para fácil navegação. O CSS utilizado está presente em diferentes arquivos para cada página, onde definições de cores, fontes e layout foram aplicadas para harmonizar o design.
