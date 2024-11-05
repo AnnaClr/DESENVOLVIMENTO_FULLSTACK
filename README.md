@@ -40,13 +40,12 @@ Construir um Site em HTML e CSS com a temática, "um lugar que eu gostaria de co
 - Deve ser usada todas as TAGs no HTML e CSS visto em sala de aula, Tags de parágrafos, listas, tabelas, imagens etc.
 - Deve ser feito um vídeo mostrando o atendimento de cada requisito, explicando o funcionamento das TAGS e enviado para o formulário.
 
-## Elementos e Tags Utilizados
+## Elementos e Tags Utilizados:
 
 O site inclui os seguintes elementos:
 
 - Um cabeçalho (`<header>`) com o título do site e um menu de navegação (`<nav>`) para todas as páginas.
 - Parágrafos (`<p>`) com descrições e informações sobre Boston.
-- Listas ordenadas (`<ol>`) e não ordenadas (`<ul>`) com tópicos relevantes em cada página.
 - Tabelas (`<table>`, `<tr>`, `<th>`, `<td>`) na página de paisagens, organizando informações sobre pontos turísticos.
 - Imagens (`<img>`) para ilustrar paisagens e aspectos culturais da cidade.
 - CSS personalizado para estilizar cabeçalhos, parágrafos, tabelas e o layout geral do site.
