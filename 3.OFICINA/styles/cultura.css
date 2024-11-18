@@ -11,23 +11,32 @@
 header {
     background-color: #000000;
     color: white;
+ 
     padding: 1rem;
+
     text-align: center;
     font-weight: 500;
-    height: 10.625rem;
+}
+ 
+section {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+}
+.sub-section  {
+    width: 60%;
 }
 
 h1 {
-    font-size: 5.625rem;
+    font-size: 4rem;
     font-weight: 800;
     color: #5c3262;
     text-shadow: 0.25rem 0.125rem 0 rgba(92, 50, 98, 0.4);
-    position: absolute;
-    top: 40%;
+ 
     left: 3.125rem;
-    transform: translateY(-50%);
-    padding-left: 1.25rem;
+
 }
+
 
 h2 {
     font-size: 2.1875rem;
@@ -35,27 +44,21 @@ h2 {
     color: #5c3262;
     text-shadow: 0.125rem 0.0625rem 0 rgba(92, 50, 98, 0.4);
     font-family: "Tenor Sans", serif;
-    position: absolute;
-    top: 48%;
+ 
     left: 3.125rem;
-    transform: translateY(-50%);
-    padding-left: 1.25rem;
     letter-spacing: 0.5rem;
 }
 
 p {
     width: 37.5rem;
-    padding-left: 1.25rem;
     margin-top: 0.9375rem;
-    position: absolute;
-    top: 58%;
-    left: 3.125rem;
-    transform: translateY(-50%);
+
     font-size: 1.25rem;
     font-weight: 500;
     color: #5c3262;
     text-align: justify;
     font-family: "Open Sans", sans-serif;
+    left: 3.125rem;
 }
 
 nav a {
@@ -63,6 +66,7 @@ nav a {
     font-weight: 900;
     color: #ffffff;
     text-decoration: none;
+   
     padding: 2.1875rem;
     justify-content: space-between;
     gap: 0.625rem;
@@ -73,21 +77,63 @@ nav a:hover {
     color: blueviolet;
 }
 
-section {
-    padding: 1.25rem;
-}
-
-.main-img {
+.cultura-img {
     width: 36.25rem;
-    margin-left: 62.5rem;
 }
 
 .linha {
     border-top: 0.25rem solid #5c3262;
-    width: 40.625rem;
+    width: 85%;
     margin-top: 1.25rem;
-    position: absolute;
-    top: 50%;
     left: 4.1875rem;
-    transform: translateY(-50%);
+}
+
+@media (max-width: 500px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    header {
+        height: auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav a {
+        font-size: medium;
+        padding: 5px;
+    }
+    section {
+        flex-direction: column;
+    }
+    
+    .sub-section {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+    }
+    .linha {
+        width: 100%;
+    }
+    .cultura-img {
+        margin: 0px;
+        width: 100%;
+    }
+    p, h1, h2{
+        padding-left: 0px;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
