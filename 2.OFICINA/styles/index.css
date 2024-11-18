@@ -1,72 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,86.3,100..900;0,100,100..900;1,86.3,100..900;1,100,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Archivo Black", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 header {
     background-color: #000000;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    font-weight: 500;
-    height: 10.625rem;
+    padding: 1em;
 }
 
-h1 {
-    font-size: 5.625rem;
-    font-weight: 800;
-    color: #5c3262;
-    text-shadow: 0.25rem 0.125rem 0 rgba(92, 50, 98, 0.4);
-    position: absolute;
-    top: 40%;
-    left: 3.125rem;
-    transform: translateY(-50%);
-    padding-left: 1.25rem;
-}
-
-h2 {
-    font-size: 2.1875rem;
-    font-weight: 400;
-    color: #5c3262;
-    text-shadow: 0.125rem 0.0625rem 0 rgba(92, 50, 98, 0.4);
-    font-family: "Tenor Sans", serif;
-    position: absolute;
-    top: 48%;
-    left: 3.125rem;
-    transform: translateY(-50%);
-    padding-left: 1.25rem;
-    letter-spacing: 0.5rem;
-}
-
-p {
-    width: 37.5rem;
-    padding-left: 1.25rem;
-    margin-top: 0.9375rem;
-    position: absolute;
-    top: 58%;
-    left: 3.125rem;
-    transform: translateY(-50%);
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: #5c3262;
-    text-align: justify;
-    font-family: "Open Sans", sans-serif;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
 }
 
 nav a {
-    font-size: 1.5625rem;
-    font-weight: 900;
-    color: #ffffff;
+    color: white;
     text-decoration: none;
-    padding: 2.1875rem;
-    justify-content: space-between;
-    gap: 0.625rem;
-    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -74,20 +31,78 @@ nav a:hover {
 }
 
 section {
-    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 2em;
 }
 
-.main-img {
-    width: 36.25rem;
-    margin-left: 62.5rem;
+.sub-section {
+    text-align: center;
+    max-width: 50%;
+    padding: 1em;
 }
 
-.linha {
-    border-top: 0.25rem solid #5c3262;
-    width: 40.625rem;
-    margin-top: 1.25rem;
-    position: absolute;
-    top: 50%;
-    left: 4.1875rem;
-    transform: translateY(-50%);
+.sub-section h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.sub-section h2 {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.sub-section .linha {
+    width: 50%;
+    margin: 0.5em auto;
+    border: 0;
+    height: 2px;
+    background-color: #333;
+}
+
+.sub-section p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+.main-img,
+.cultura-img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 2em;
+}
+
+th, td {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    padding: 2em;
+}
+
+.gallery img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
 }
